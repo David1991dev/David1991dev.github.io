@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/8cffc5a592.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="bot.html">Navbar</a>
@@ -40,58 +40,29 @@
           </div>
         </div>
       </nav>
-
-    <h1>Hello Bootstrap</h1>
-
-
+    
 <div class="container">
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 ">
-            One of three columns
+        <div class="col-2"></div>
+        <div class="col-8">
+            <table id="userTable" class="table table-striped table-bordered  table-hover">
+                <thead> 
+                    <th scope="col">#</th>
+                    <th scope="col">Last name</th>
+                    <th scope="col">First name</th> 
+                    <th scope="col">Age</th>
+                </thead>
+                <tbody>
+                </tbody>
+                
+                
+            </table>
+
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-            Two of three columns
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-            Three of three columns
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-            Three of three columns
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-            Three of three oszlop
-        </div>
+        <div class="col-2"></div>
     </div>
 </div>
 
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-4"></div>
-    <div class="col-3">
-      <h3>Hamburger rendelés</h3>
-      <form>
-        <div>
-          <label for="" class="form-label">Feltétek:</label>
-          <input type="text" class="form-label" name="top-input" id="top-input">
-        </div>
-        <div>
-          <label for="" class="form-label">Mennyiség:</label>
-          <input type="number" class="form-label" name="amount-input" id="amount-input" value="1">
-          <small class="form-text text-muted">
-            Minimum:1db, Maximum: 10db
-          </small>
-        </div>
-        <div>Fizetendő: <span class="show-amount">0</span> Ft</div>
-        <button class="btn btn-primary" id="megrendeles" type="button" onclick="calcAmount()">Megrendelés</button>
-      </form>
-    </div>
-    <div class="col-4"></div>
-  </div>
-</div>
-
-
-  <script src="main.js"></script>
+<script src="/DOM (Document Object Model)/abaout.js"></script>
 </body>
 </html>
