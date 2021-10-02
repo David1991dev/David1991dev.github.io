@@ -1,0 +1,7 @@
+.backgroundImage{
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+    border-radius: 20px;    
+
+}

@@ -3,20 +3,10 @@ p{
 }
 
 
-.card{
-  border-radius: 50px;
-}
-
-.card-img-top{
-  height: 25rem;
-}
 
 
-.carousel-item {
-  height: 38rem;
-}
 
-
+/*Time-Schedule*/
 .img-col{
   position: relative;
   width: 100%;
@@ -50,11 +40,10 @@ p{
 }
 
 
+/*Foot*/
 .img-background{
   width: 100%;
   position: relative;
-
-
 }
 
 .card-img{
@@ -82,4 +71,9 @@ p{
   height: 100%;
   max-height: 1200px;
 }
-
+/*
+.fix{
+  position: fixed;
+  background-color: beige;
+  top: 50px;
+}

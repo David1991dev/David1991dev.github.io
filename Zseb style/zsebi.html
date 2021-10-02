@@ -3,49 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Zsebi style</title>
     <link rel="stylesheet" href="/Zseb style/zsstyle.css">
     <link rel="stylesheet" href="/CSS_example/BootStrap/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/8cffc5a592.js" crossorigin="anonymous"></script>
 </head>
 <body>
-        
-<!--Menu-->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/Zseb style/zsebi.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Zseb style/palyafutas.html">Pályafutás</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Zseb style/szolgaltatasok.html">Szolgáltatások</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Zseb style/munkáim.html">Munkáim</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/Zseb style/kapcsolat.html">Kapcsolat</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+          
 <br>
 <br>
 <br>
 <br>
 
-<!--Minta frizurák-->
+<!--Referenciák-->
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-12">
@@ -71,9 +42,9 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>  
-        <div class="card-body">
-          <h5 class="card-title">Hajtrendek</h5>
-          <a href="https://femina.hu/szepseg/frizura-divat-2021/" class="btn btn-primary" target="_blank">Mutasd a trendeket</a>
+        <div class="card-body text-center">
+          <h5 class="card-title">Referenciák</h5>
+          <button class="btn btn-primary">Mutas a többi munkát</button>
         </div>
       </div>
     </div>
@@ -84,7 +55,7 @@
 
             <div class="col-lg-4 col-md-12">
               <div class="card">
-                <img src="/IMG/advice.jpg" alt="" class="card-img-top">
+                <img src="/IMG/advice.jpg" alt="" class="d-block w-100">
                 <div class="card-body">
                   <h5 class="card-title">Ingyenes Tanácsadás</h5>
                   <p class="card-text">Írjon nekem!</p>
@@ -116,15 +87,15 @@
 
 <div class="container padding-4">
   <div class="row">
-    <div class="col-lg-4 col-md-12 text-center img-col">
+    <div class="col-lg-4 col-md-12 mb-2 text-center img-col">
       <img src="/IMG/time.jpg" alt="timeschedule">
     </div>
-    <div class="col-8 img-col">
+    <div class="col-lg-8 col-md-12 img-col">
       <div class="row">
 
         <!--Helyszín-->
         <div class="col-lg-4 col-md-12 text-center">
-          <div class="p-1 mb-2 bg-warning text-dark">Helyszín</div>
+          <div class="p-1 mb-2 bg-primary text-light">Helyszín</div>
           <br>
           <div class="form-check">
             <input class="form-check-input" type="radio" value="" id="flexCheckDefault" name="radio">
@@ -139,15 +110,32 @@
             </label>
           </div>
         </div>
+        
+        <!--Service-->
+        
+        <div class="col-lg-4 col-md-12">
+          <div class="p-1 mb-2 bg-primary text-light text-center ">Szolgáltatás</div>
+          <br>
+          <div class="form-check">
+            <input type="checkbox" id="service" for="service1" class="form-check-input">
+            <label for="service1" class="form-check-label">Vágás</label>
+          </div>
+          
+          <div class="form-check">
+            <input type="checkbox" id="service" for="service1" class="form-check-input">
+            <label for="service1" class="form-check-label">Festés</label>
+          </div>
+        </div>
+
 
         <!--Időpont-->
         <div class="col-lg-4 col-md-12 text-center">
-          <div class="p-1 mb-2 bg-warning text-dark text-center ">Szabad iőpontok</div>
+          <div class="p-1 mb-2 bg-primary text-light text-center ">Szabad iőpontok</div>
           <div class="form-check">
             <label for="birthday" class="form-check-label">Időpont:</label>
             <input type="date" id="birthday" name="birthday">
           </div>
-
+        
           <div class="form-check">
             <input class="form-check-input" type="radio" value="" id="flexCheckChecked" name="radio-day">
             <label class="form-check-label" for="flexCheckChecked">
@@ -162,26 +150,14 @@
           </div>
         </div>
 
-        <!--Service-->
 
-        <div class="col-lg-4 col-md-12">
-          <div class="p-1 mb-2 bg-warning text-dark text-center ">Szolgáltatás</div>
-          <br>
-          <div class="form-check">
-            <input type="checkbox" id="service" for="service1" class="form-check-input">
-            <label for="service1" class="form-check-label">Vágás</label>
-          </div>
 
-          <div class="form-check">
-            <input type="checkbox" id="service" for="service1" class="form-check-input">
-            <label for="service1" class="form-check-label">Festés</label>
-          </div>
-        </div>
       </div>
       <button type="button" class="btn btn-primary" id="schedule">Időpont foglalás</button>
     </div>
   </div>
 </div>
+
 
 
 
@@ -208,29 +184,33 @@
 
 -->
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
+<!--Foot-->
 
+        <div class="text-center">
+          <span style="font-size: 50px;">
+            <a href="">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="/Zseb style/palyafutas.html">
+              <i class="fab fa-twitter-square">
+              </i>
+            </a>
+            <a href="/Zseb style/palyafutas.html">
+              <i class="fab fa-instagram-square" ></i>
+            </a>
+          </span>
+          
 
-
-
-        <!--Adatkezelési nyilatkozat-->
-
+        
+        </div>
         <div class="img-background">
             <img src="/IMG/csokesz.PNG" class="card-img" alt="..." >
             <div class="img-text">
               <p class="card-text text-right-bottom" >2021.08.13</p>
               <h5 class="card-title text-left-top" >Adatkezelési nyilatkozat <br> Csáki Adrienn</h5>
+              
 
 
             </div>
@@ -243,6 +223,7 @@
     
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
         <script src="/Zseb style/scrip.js"></script>
+        <script src="/Zseb style/navbar.js"></script>
 
 
 </body>
